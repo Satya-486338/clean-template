@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include<VehicleCollectorTest.h>
+#include"VehicleCollectorTest.h"
 
 std::numeric_limits<double>::quiet_NaN();
 ASSERT_TRUE(std::isnan(no_value_float));
