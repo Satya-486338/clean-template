@@ -1,8 +1,4 @@
 #include <gtest/gtest.h>
-#include"VehicleCollectorTest.h"
-
-std::numeric_limits<double>::quiet_NaN()
-ASSERT_TRUE(std::isnan(no_value_float));
 
 TEST(COLLECT, when_vehicle_reports_a_measurement_it_is_fetched_and_storted_with_vehicle_id){
   inventory i = telematics_to_inventory(telematic);
