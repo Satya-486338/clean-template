@@ -9,6 +9,6 @@ TEST(COLLECT, when_vehicle_reports_a_measurement_it_is_fetched_and_storted_with_
 
 int main(int argc,char **argv){
 
-  testing::InitGoogleTest(&argc, argv):
+  testing::InitGoogleTest(&argc, argv);
   return RUN_ALL_TESTS();
 }
