@@ -1,3 +1,7 @@
+#include <limits>
+#include<cmath>
+
+
 enum measure
 {
   motor_temp,
