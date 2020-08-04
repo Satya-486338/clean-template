@@ -1,6 +1,6 @@
 #include "VehicleCollectorTest.h"
 
-inventory telematics_to_inventory(const telematics &obj_telematics)
+inventory telematics_to_inventory(const telematics& obj_telematics)
 {
   inventory inventory;
   
