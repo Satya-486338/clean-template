@@ -4,7 +4,7 @@ TEST(COLLECT, when_vehicle_reports_a_measurement_it_is_fetched_and_storted_with_
    telematics obj_telematics = {231,motor_temp,30};
    inventory obj_inventory   = telematics_to_inventory(obj_telematics);
  
-    ASSERT_EQ(inventory.motor_temp,30);
+    ASSERT_EQ(obj_inventory.motor_temp,30);
 }
 
 int main(int argc,char **argv){
