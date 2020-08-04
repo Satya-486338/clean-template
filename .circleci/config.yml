@@ -44,4 +44,5 @@ jobs:
           command: './testchecker'
       - run:
           name: Report coverage
-          command: 'gcovr -r .'       
+          command: 'gcovr -r .'     
+          
