@@ -21,4 +21,4 @@ struct inventory
  float battery_pc;
  float battery_temp;
 };
-inventory telematics_to_inventory(telematics* obj_telematics);
+inventory telematics_to_inventory(const telematics& obj_telematics);
